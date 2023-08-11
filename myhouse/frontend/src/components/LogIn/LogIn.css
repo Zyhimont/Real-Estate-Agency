@@ -1,0 +1,16 @@
+.login-page-content {
+    gap: 1rem;
+}
+
+.login-form > input {
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 0.5rem 0.4rem;
+    width: 20rem;
+    margin-top: 0.5rem;
+}
+
+.login-form > label, 
+.login-form > button {
+    margin-top: 1.5rem;
+}

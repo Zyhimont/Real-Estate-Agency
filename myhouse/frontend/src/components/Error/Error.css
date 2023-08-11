@@ -1,0 +1,14 @@
+.error-primary-text {
+    color: black;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.error-page-content  {
+    justify-content: center;
+    display: flex;
+}
+
+.error-wrapper {
+    text-align: center;
+}

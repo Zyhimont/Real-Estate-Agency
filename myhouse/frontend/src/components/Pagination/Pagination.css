@@ -1,0 +1,23 @@
+.pagination-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
+
+.pagination-page,
+.pagination-prev,
+.pagination-next {
+    list-style: none;
+    cursor: pointer;
+}
+
+.pagination-active {
+    font-weight: bold;
+}
+
+.pagination-disabled {
+    color: grey;
+    cursor: default;
+}

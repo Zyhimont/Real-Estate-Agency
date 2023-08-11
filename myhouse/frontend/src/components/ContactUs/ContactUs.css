@@ -1,0 +1,33 @@
+.contactUs-page-content  {
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    background: linear-gradient(90deg, rgba(244,244,244,0) 0%, rgba(0,0,0,0.6) 0%), url("../../../public/media/img/about.png");
+    background-size: 100% 100%;
+}
+
+div.contactUs-wrapper {
+    margin-top: 10rem;
+}
+
+.contactUs-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: justify;
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.contactUs-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contactUs-option {
+    width: 16rem;
+}
+
+.contactUs-option .detail {
+    gap: 0.3rem;
+}

@@ -1,0 +1,110 @@
+.link-style {
+    margin-left: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.realty-detail-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.realty-detail-content-top {
+    display: flex;
+    gap: 5rem;
+}
+
+.realty-detail-left {
+    overflow: hidden;
+    max-width: 50rem;
+}
+
+.realty-detail-right {
+    min-width: 30%;
+}
+
+div.realty-images-slider-buttons {
+    position: relative;
+    gap: 3rem;
+    top: 0;
+    margin-top: 1rem;
+}
+
+ .realty-image-card > img {
+    border-width: 2px;
+    max-width: max-content;
+    margin: auto;
+    width: 100%;
+    height: 30rem;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.top-info-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.top-info-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.description-block > p {
+    margin-top: 0.5rem;
+}
+
+.padding-left {
+    margin-left: 1rem;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.text-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.center-info {
+    gap: 1.5rem;
+}
+
+.general-info-block {
+    width: 50%;
+}
+
+.general-info-block > table {
+    width: 100%;
+}
+
+.general-info-block caption {
+    text-align: start;
+    margin-bottom: 0.5rem;
+}
+
+.cost-block {
+    width: 30%;
+}
+
+.cost-block .padding-left {
+    font-weight: normal;
+}
+
+.cost-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

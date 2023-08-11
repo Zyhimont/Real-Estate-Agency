@@ -1,0 +1,66 @@
+Houses:
+	/api/v1/houses/houseslist
+		GET: returns a list of all houses.
+		*POST: creates a new house.
+
+
+	/api/v1/houses/houseslist/<int:pk>/
+		GET: returns a house by id.
+		*PUT, PATCH: modifies the house.
+		*DELETE: deletes the house.
+
+
+
+
+Agents:
+	/api/v1/agents/agentslist
+		GET: returns a list of all agents.
+		**POST: creates a new agent.
+
+
+	/api/v1/agents/agentslist/<int:pk>/
+		GET: returns an agent by id.
+		**PUT, PATCH: modifies the agent.
+		**DELETE: deletes the agent.
+
+
+
+
+Authentication:
+	/auth/token/login/
+		POST: expects username and password, returns authentication token.
+
+
+	/auth/token/logout/
+		*POST: unlogs the user.
+
+
+	/api/v1/auth/users/
+		*GET: returns current user (an array of 1 element).
+		**GET: returns all users.
+		POST: creates a new user.
+
+
+	/api/v1/auth/users/me/
+		*GET, PUT, PATCH, DELETE: returns, updates, deletes current user.
+
+
+
+
+Images: 
+	/api/v1/houses/houseimages/<int:fk>/
+		GET: returns an array of images of the current house.
+		*POST: uploads a new image of the current house.
+
+
+	/api/v1/houses/houseimages/<int:fk>/<int:pk>/
+		GET: returns image by id of the particular house.
+		*DELETE: deletes the image. 
+
+		fk -- id of the house.
+		pk -- id of the image.
+
+
+
+* -- authentication is required.
+** -- admin only.

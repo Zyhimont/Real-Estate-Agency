@@ -1,0 +1,49 @@
+.contact-container .image-container {
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.contact-container {
+    justify-content: space-between;
+}
+
+.contact-container > div {
+    flex: 1;
+}
+
+.contact-left {
+    width: 100%;
+}
+
+.contact-right {
+    gap: 0.5rem;
+    margin-left: 2rem;
+}
+
+.contact-options {
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.contact-options .row {
+    gap: 1.5rem;
+}
+
+.option {
+    width: 16rem;
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.mainText {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.option > * {
+    width: 100%;
+    gap: 1.6rem;
+}

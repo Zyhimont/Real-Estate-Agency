@@ -1,0 +1,4 @@
+Authorization data for the "Log In" page:
+
+Username: admin
+Password: admin

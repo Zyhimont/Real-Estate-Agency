@@ -1,0 +1,11 @@
+1) Установить зависимости для клиентской части, выполнив команду npm install в директориях project\myhouse\frontend\ и project\myhouse\frontend\server\
+
+2) Внутри директории project\ создать виртуальное окружение для python-приложения с помощью команды python -m venv venv, а затем активировать его, запустив venv\Scripts\activate.bat
+
+3) Из директории project\myhouse установить зависимости для серверной части командой pip install -r requirements_backend.txt
+
+4) Из директории project\myhouse запустить backend-сервер командой python manage.py runserver
+
+5) Из директории project\myhouse\frontend\server запустить frontend-сервер командой npm start
+
+Клиентское приложение находится на URL http://127.0.0.1:9000.

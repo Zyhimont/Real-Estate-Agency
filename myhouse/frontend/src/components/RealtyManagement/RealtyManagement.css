@@ -1,0 +1,16 @@
+.big-text {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.realty-management-menu {
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 50rem;
+    height: 30rem;
+    padding: 2rem;
+    gap: 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}

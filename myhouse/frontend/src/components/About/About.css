@@ -1,0 +1,26 @@
+.about-page-content  {
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    background: linear-gradient(90deg, rgba(244,244,244,0) 0%, rgba(0,0,0,0.6) 0%), url("../../../public/media/img/about.png");
+    background-size: 100% 100%;
+}
+
+div.about-wrapper {
+    margin-top: 10rem;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: justify;
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.about-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

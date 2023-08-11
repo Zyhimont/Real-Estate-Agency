@@ -1,0 +1,42 @@
+.realty-add-content {
+    gap: 1rem;
+}
+
+.realty-add-container {
+    text-align: center;
+}
+
+.add-form > input {
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 0.5rem 0.4rem;
+    width: 40rem;
+    margin-top: 0.5rem;
+}
+
+.add-form {
+    margin-top: 1rem;
+}
+
+.add-form > label{
+    margin-top: 1rem;
+}
+
+.add-form > button {
+    margin-top: 1.5rem;
+}
+
+.add-form > select {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.add-form > * {
+    width: 40rem;
+    font-size: 1rem;
+}
+
+.add-form > textarea {
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+}

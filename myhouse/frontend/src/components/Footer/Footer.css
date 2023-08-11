@@ -1,0 +1,28 @@
+.footer-wrapper {
+    background-color: silver;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    gap: 1rem;
+}
+
+.footer-media-header {
+    font-size: 1.5rem;
+}
+
+.footer-company-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.footer-media {
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}

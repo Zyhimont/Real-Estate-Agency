@@ -1,0 +1,52 @@
+.realty-update-content {
+    gap: 1rem;
+}
+
+.realty-update-container {
+    text-align: center;
+}
+
+.update-form > input {
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 0.5rem 0.4rem;
+    width: 40rem;
+    margin-top: 0.5rem;
+}
+
+.update-form {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.update-form > label{
+    margin-top: 1rem;
+}
+
+.update-form > button {
+    margin-top: 1.5rem;
+}
+
+.update-form > select {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.update-form > * {
+    width: 40rem;
+    font-size: 1rem;
+}
+
+.update-form > textarea {
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.update-realty-images {
+    overflow: hidden;
+    max-width: 50rem;
+}
+
+.update-realty-images .realty-image-card {
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.promises-container .image-container {
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.promises-container > div {
+    flex: 1;
+}
+
+.promises-left {
+    gap: 0.5rem;
+    margin-right: 2rem;
+}
+
+div.accordion {
+    margin-top: 2rem;
+    border: none;
+    width: 100%;
+}
+
+.accordionItem {
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.accordionButton {
+    display: flex;
+    row-gap: 2rem;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.icon {
+    padding: 10px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(192,192,192,0.5) 100%);
+    border-radius: 3px;
+}
+
+.accordionButton .primaryText {
+    font-size: 1.1rem;
+}

@@ -1,0 +1,15 @@
+.realty-remove-content {
+    gap: 1rem;
+}
+
+.remove-form > input {
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 0.5rem 0.4rem;
+    width: 20rem;
+    margin-top: 0.5rem;
+}
+
+.remove-form > button {
+    margin-top: 1.5rem;
+}
